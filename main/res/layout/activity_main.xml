@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container"
+    tools:context=".MainActivity">
+
+    <inc.droidstar.assignment01.CustomEditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:typeface="normal"
+        android:textAlignment="center"
+        android:hint="Type Something"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="80sp"
+        android:background="@null"/>
+</RelativeLayout>
